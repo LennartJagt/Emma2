@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: MyString
+  purchaseinvoice: 
+  productid: MyString
+  vetId: MyString
+  price: 
+  vatpercentage: 
+  amount: 
+  regminequser: MyString
+  quantity: 
+  vat: 
+  productinvoicetext: MyString
+  name: MyString
+  ref@Patient@invoicedetail: MyString
+  ref@Invoice@invoicedetail: MyString
+
+two:
+  date: MyString
+  purchaseinvoice: 
+  productid: MyString
+  vetId: MyString
+  price: 
+  vatpercentage: 
+  amount: 
+  regminequser: MyString
+  quantity: 
+  vat: 
+  productinvoicetext: MyString
+  name: MyString
+  ref@Patient@invoicedetail: MyString
+  ref@Invoice@invoicedetail: MyString

@@ -1,0 +1,74 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @invoicedetail.date %>
+</p>
+
+<p>
+  <strong>Purchaseinvoice:</strong>
+  <%= @invoicedetail.purchaseinvoice %>
+</p>
+
+<p>
+  <strong>Productid:</strong>
+  <%= @invoicedetail.productid %>
+</p>
+
+<p>
+  <strong>Vetid:</strong>
+  <%= @invoicedetail.vetId %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @invoicedetail.price %>
+</p>
+
+<p>
+  <strong>Vatpercentage:</strong>
+  <%= @invoicedetail.vatpercentage %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @invoicedetail.amount %>
+</p>
+
+<p>
+  <strong>Regminequser:</strong>
+  <%= @invoicedetail.regminequser %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @invoicedetail.quantity %>
+</p>
+
+<p>
+  <strong>Vat:</strong>
+  <%= @invoicedetail.vat %>
+</p>
+
+<p>
+  <strong>Productinvoicetext:</strong>
+  <%= @invoicedetail.productinvoicetext %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @invoicedetail.name %>
+</p>
+
+<p>
+  <strong>Ref@patient@invoicedetail:</strong>
+  <%= @invoicedetail.ref@Patient@invoicedetail %>
+</p>
+
+<p>
+  <strong>Ref@invoice@invoicedetail:</strong>
+  <%= @invoicedetail.ref@Invoice@invoicedetail %>
+</p>
+
+<%= link_to 'Edit', edit_invoicedetail_path(@invoicedetail) %> |
+<%= link_to 'Back', invoicedetails_path %>
